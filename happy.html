@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy life</title>
+    <style>
+        table tr td {
+            border: 1px solid;
+        }
+        th{
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 6px;
+        }
+        form{
+            background-color: pink;
+            padding: 10px;
+        }
+        button{
+            margin-left: 35%;
+            margin-top: 10px;
+            background-color: rgb(156, 36, 36);
+        }
+        #prop {
+            font-weight: 700;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form name="venky ">
+    <h2>Happy Place-Rental Property portal</h2>
+    <table>
+        <tr>
+            <td id="prop">property Details</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="hose" id="ihosue">
+                    <option value="ihose">Independent House</option>
+                </select>
+            </td> 
+            <td>
+                <select name="five" id="numbr">
+                    <option value="numbr">5-10</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="2">No4,Cawley Broun Road coimbatore</td>
+        </tr>
+        <tr>
+            <td>Posted On: <br>
+                <input type="date" id="date">
+            </td>
+            <td>
+                Available From: <br>
+                <input type="date" id="date">
+            </td>
+        </tr>
+        <tr>
+            <td>rent:
+                <input type="range" id="rent">
+                <label for="rent">17500</label>
+            </td>
+            <td>Deposit:
+                <input type="range" id="diposite">
+                <label for="diposite">150000</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="flno" placeholder="Enter the floor no*">
+            </td>
+            <td>
+                <input type="checkbox" id="pfacility">
+                <label for="pfacility">Parking facility</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Extra Aminities</td>
+            <td>
+                <input type="checkbox" id="lift">
+                <label for="lift">Lift</label><br>
+                <input type="checkbox" id="mstaff">
+                <label for="mstaff">Maintanance staff</label> <br>
+                <input type="checkbox" id="park">
+                <label for="park">Park</label> <br>
+                <input type="checkbox" id="intercom">
+                <label for="intercom">Intercom</label> <br>
+                <input type="checkbox" id="furnishing">
+                <label for="furnishing">Furnishing</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Venky</td>
+            <td>9573314410</td>
+        </tr>
+    </table>
+            <button>POST PROPERTY</button>
+</form>
+</body>
+</html>
